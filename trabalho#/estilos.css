@@ -1,0 +1,46 @@
+button > svg {
+    width: 20px;
+    fill: #730071;
+    }
+    
+    .card {
+    width: 1000px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #a9a587;
+    }
+    
+    p {
+    font-weight: bold;
+    }
+    :root {
+    --padding-p: 5px;
+    --border-r: 20px;
+    --primary-color: black;
+    }
+    .trabalho {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: var(--padding-p);
+    border-radius: var(--border-r);
+    }
+    
+    .casa {
+    background-color: pink;
+    border: none;
+    color: var(--primary-color);
+    padding: var(--padding-p);
+    border-radius: var(--border-r);
+    
+    }
+    
+    .ferias {
+    background-color: orange;
+    border: none;
+    color: var(--primary-color);
+    padding: var(--padding-p);
+    border-radius: var(--border-r);
+    }
